@@ -20,6 +20,11 @@ def about():
 def resume():
     return render_template('resume.html')
 
+#projects page
+@app.route('/projects')
+def projects():
+    return render_template('projects.html')
+
 #404 page
 @app.errorhandler(404)
 def page_not_found(e):
