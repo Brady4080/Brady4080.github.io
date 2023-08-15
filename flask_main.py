@@ -10,6 +10,16 @@ app = Flask(__name__,
 def index():
     return render_template('index.html')
 
+#about page
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+#resume page
+@app.route('/resume')
+def resume():
+    return render_template('resume.html')
+
 #404 page
 @app.errorhandler(404)
 def page_not_found(e):
