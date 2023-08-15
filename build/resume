@@ -1,0 +1,42 @@
+<head>
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="/css/master.css">
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+    <script src="/js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+    <!-- navbar -->
+    <nav class="navBar">
+        <div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/resume">Resume</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="https://github.com/Brady4080" target="_blank"> Github <i class="fa fa-external-link"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/brady-phillips-9b6a60173/" target="_blank"> Linkedin <i class="fa fa-external-link"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    
+<div class="resume_page">
+
+</div>
+
+
+    <!-- bottom banner -->
+    <div class="bottom_banner">
+
+    </div>
+
+<!--script and css-->
+<link rel="stylesheet" type="text/css" href="/css/master.css">
+<script src="/js/script.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
