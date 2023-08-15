@@ -1,9 +1,12 @@
 from flask import Flask, render_template
+from flask_frozen import Freezer
 
 app = Flask(__name__, 
             static_url_path='',
             static_folder='static',
             template_folder='templates')
+
+freezer = Freezer(app)
 
 #home page
 @app.route('/')
@@ -31,4 +34,5 @@ def page_not_found(e):
     return render_template('404.html'), 404
 
 if __name__ == '__main__':
+    freezer.freeze()
     app.run(debug=True)
