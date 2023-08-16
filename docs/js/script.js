@@ -1,13 +1,14 @@
-alert("Script file loaded and executed.");
+document.addEventListener('DOMContentLoaded', () => {
+    // Get the navbar element
+    const navBar = document.querySelector('.navBar');
 
-// Get the navbar element
-const navBar = document.querySelector('.navBar');
-
-// Listen for scroll events
-window.addEventListener('scroll', () => {
-    if (window.scrollY > 0) {
-        navBar.classList.add('scrolled');
-    } else {
-        navBar.classList.remove('scrolled');
-    }
+    // Listen for scroll events
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 0) {
+            navBar.classList.add('scrolled');
+        } else {
+            navBar.classList.remove('scrolled');
+        }
+    });
 });
+

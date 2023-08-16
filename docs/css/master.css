@@ -61,14 +61,14 @@ button:hover {
 
 /* Navbar container */
 .navBar {
-    background: transparent;
     padding: 1rem 0;
     display: flex;
     justify-content: center;
     position: fixed;
     top: 0;
     width: 100%;
-    transition: 0.3s;
+    transition: background 0.3s ease, box-shadow 0.1s ease; /* Include box-shadow transition */
+    z-index: 1000; /* Ensure the navbar is on top of other elements */
 }
 
 /* Nav links */
@@ -81,7 +81,7 @@ button:hover {
 }
 
 .navBar a {
-    color: #fff; /* Original color: white */
+    color: #fff;
     text-decoration: none;
     padding: 0.5rem 1rem;
     margin: 0 0.5rem;
@@ -90,17 +90,17 @@ button:hover {
 
 /* Nav link hover */
 .navBar a:hover {
-    color: #69c; /* Original color: blue */
+    color: #69c;
 }
 
 /* Scroll effect */
 .navBar.scrolled {
-    background: linear-gradient(to bottom, rgba(31,32,41,0.8), rgba(56,56,78,0.8)); 
-    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-  }
+    background: rgba(31, 32, 41, 0.9); /* Slightly more opaque background */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5); /* Increase shadow opacity */
+}
 
 .navBar.scrolled a {
-    color: #000;
+    color: #fff;
 }
 
 /* Media Query for smaller screens */
@@ -119,3 +119,4 @@ button:hover {
         margin: 0.25rem 0;
     }
 }
+
