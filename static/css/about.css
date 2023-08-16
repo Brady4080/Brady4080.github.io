@@ -1,0 +1,52 @@
+/* CSS sheet for the about page */
+section {
+    padding: 60px;
+}
+  
+.about_page {
+    padding-top: 10vh;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Headings */
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    text-align: left; 
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+h2 {
+    padding-top: 3vh;
+    font-size: 2em;
+    margin: 40px 0 20px;
+}
+
+hr {
+    border-top: 1px solid #ccc;
+  }
+
+/* Content */
+
+p, li {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;  
+}
+
+p {
+    margin: 20px auto;
+}
+
+/* Media */
+
+img {
+    display: block;
+    margin: 30px auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px #aaa;
+}
