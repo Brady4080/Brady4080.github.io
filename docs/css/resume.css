@@ -1,0 +1,19 @@
+/* CSS sheet for the resume page */
+.resume_page {
+    padding-top: 10vh;
+    max-width: 800px;
+    margin: 0 auto; 
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+  } 
+  
+  p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+  }
