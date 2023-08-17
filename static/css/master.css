@@ -120,3 +120,18 @@ button:hover {
     }
 }
 
+/*
+    || Footer
+*/
+
+footer {
+    padding-top: 5vh !important;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+  
+.footer-links a {
+color: #fff;
+margin: 1rem;
+}
