@@ -1,0 +1,44 @@
+h1 {
+    padding-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    padding-bottom: 3vh;
+}
+
+.projects_page {
+    padding-top: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    width: 400px;
+    min-height: 200px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.2);
+}
+
+.btn {
+    padding: 10px 20px; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0px 0px 0px -15px;
+}
+  
+.btn:hover {
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.2);
+}
