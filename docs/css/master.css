@@ -135,3 +135,11 @@ footer {
 color: #fff;
 margin: 1rem;
 }
+
+/*
+    || 404
+*/
+
+.jumbotron {
+    padding-top: 5vh !important;
+}

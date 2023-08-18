@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GitHub Repo Code Execution Demo</title>
+</head>
+<body>
+    <h1>GitHub Repo Code Execution Demo</h1>
+    <button id="runButton">Run Code from Repositories</button>
+    <div id="results"></div>
+
+    <script>
+        const runButton = document.getElementById('runButton');
+        const resultsDiv = document.getElementById('results');
+
+        runButton.addEventListener('click', async () => {
+            resultsDiv.innerHTML = 'Running...';
+
+            const response = await fetch('/run-code', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+
+            const results = await response.json();
+            let resultsHTML = '';
+
+            results.forEach(repo => {
+                resultsHTML += `<p><strong>${repo.owner}/${repo.name}:</strong><br>${repo.output}</p>`;
+            });
+
+            resultsDiv.innerHTML = resultsHTML;
+        });
+    </script>
+</body>
+</html>
