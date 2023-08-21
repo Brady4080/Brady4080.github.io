@@ -39,7 +39,9 @@ section {
 
 @media (max-width: 768px) {
     .about_page {
-        padding-top: 3vh; /* Further adjust padding for smaller screens */
+        padding-top: 10vh; /* Further adjust padding for smaller screens */
+        padding-left: 2vh;
+        padding-right: 2vh;
     }
 
     .about_page h1 {

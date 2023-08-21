@@ -48,10 +48,10 @@
     }
 
     #left_index h1 {
-        font-size: 1.8rem; /* Further adjust font size for smaller screens */
+        font-size: 1.50rem; /* Further adjust font size for smaller screens */
     }
 
     #left_index h3 {
-        font-size: 1.1rem; /* Further adjust font size for smaller screens */
+        font-size: 0.80rem; /* Further adjust font size for smaller screens */
     }
 }

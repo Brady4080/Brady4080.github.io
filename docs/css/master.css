@@ -140,24 +140,27 @@ footer {
 
 @media (max-width: 768px) {
     .content {
-        padding: 1.2rem; /* Adjust padding for mobile */
+        padding: 1.2rem;
     }
-    /* ... */
-}
 
-@media (max-width: 768px) {
     .navBar {
-        padding: 0.2rem 0; /* Adjust padding for mobile */
+        padding: 0.75rem 0;
     }
+
+    .navBar ul {
+        flex-direction: row; /* Change to row for horizontal layout */
+        flex-wrap: wrap;
+        justify-content: center; /* Center the items horizontally */
+    }
+
     .navBar a {
-        padding: 0.2rem 0.4rem; /* Adjust padding for mobile */
-        font-size: 14px; /* Reduce font size for mobile */
+        padding: 0.4rem 0.8rem;
+        font-size: 14px;
+        margin: 0 0.2rem; /* Adjust margin for better spacing */
     }
-    /* ... */
+
+    .jumbotron {
+        padding-top: 3vh !important;
+    }
 }
 
-@media (max-width: 768px) {
-    .jumbotron {
-        padding-top: 3vh !important; /* Adjust padding for mobile */
-    }
-}
