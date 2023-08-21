@@ -20,3 +20,21 @@
 .resume_page hr {
   border-top: 0.8px solid #ccc; /* 20% reduction */
 }
+
+@media (max-width: 768px) {
+  .resume_page {
+    padding-top: 3vh; /* Further adjust padding for smaller screens */
+  }
+
+  .resume_page section {
+    margin-bottom: 16px; /* Further adjust margin for smaller screens */
+  }
+
+  .resume_page p {
+    line-height: 1.1; /* Further adjust line height for better readability */
+  }
+
+  .resume_page hr {
+    margin: 12px 0; /* Further adjust margin for smaller screens */
+  }
+}

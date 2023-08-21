@@ -135,3 +135,29 @@ footer {
 .jumbotron {
     padding-top: 5vh !important;
 }
+
+/* mobile improvement */
+
+@media (max-width: 768px) {
+    .content {
+        padding: 1.2rem; /* Adjust padding for mobile */
+    }
+    /* ... */
+}
+
+@media (max-width: 768px) {
+    .navBar {
+        padding: 0.2rem 0; /* Adjust padding for mobile */
+    }
+    .navBar a {
+        padding: 0.2rem 0.4rem; /* Adjust padding for mobile */
+        font-size: 14px; /* Reduce font size for mobile */
+    }
+    /* ... */
+}
+
+@media (max-width: 768px) {
+    .jumbotron {
+        padding-top: 3vh !important; /* Adjust padding for mobile */
+    }
+}

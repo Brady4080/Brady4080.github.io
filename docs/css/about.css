@@ -36,3 +36,26 @@ section {
 .about_page p {
     margin: 16px auto;
 }
+
+@media (max-width: 768px) {
+    .about_page {
+        padding-top: 3vh; /* Further adjust padding for smaller screens */
+    }
+
+    .about_page h1 {
+        font-size: 1.8em; /* Further adjust font size for smaller screens */
+    }
+
+    .about_page h2 {
+        font-size: 1.2em; /* Further adjust font size for smaller screens */
+        margin: 20px 0 10px; /* Further adjust margin for smaller screens */
+    }
+
+    .about_page hr {
+        margin: 12px 0; /* Further adjust margin for smaller screens */
+    }
+
+    .about_page p, .about_page li {
+        margin: 8px auto; /* Further adjust margin for smaller screens */
+    }
+}
