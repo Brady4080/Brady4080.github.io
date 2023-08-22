@@ -156,9 +156,9 @@ footer {
     .navBar a {
         padding: 0.4rem 0.8rem;
         font-size: 14px;
-        margin: 0 0.2rem; /* Adjust margin for better spacing */
+        margin: 0.4rem 0.2rem; /* Adjust margin for better spacing */
     }
-
+    
     .jumbotron {
         padding-top: 3vh !important;
     }
