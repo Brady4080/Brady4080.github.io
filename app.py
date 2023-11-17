@@ -26,29 +26,29 @@ def index():
     return render_template('index.html')
 
 # About page
-@app.route('/about.html') 
+@app.route('/about') 
 def about():
     return render_template('about.html')
 
 # Resume page
-@app.route('/resume.html')  
+@app.route('/resume')  
 def resume():
     return render_template('resume.html')
 
 # Projects page
-@app.route('/projects.html')  
+@app.route('/projects')  
 def projects():
     return render_template('projects.html')
 
 # Discord verify domain page
 @app.route('/.well-known/discord')  
-def projects():
+def well_known():
     return render_template('well-known-discord.html')
 
 # 404 page
 @app.errorhandler(404)
 def page_not_found(e):
-    return render_template('404.html'), 404
+    return render_template('404'), 404
 
 if __name__ == '__main__':
     freezer.freeze()
