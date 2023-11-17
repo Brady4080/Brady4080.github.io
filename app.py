@@ -40,6 +40,11 @@ def resume():
 def projects():
     return render_template('projects.html')
 
+# Discord verify domain page
+@app.route('/.well-known/discord')  
+def projects():
+    return render_template('well-known-discord.html')
+
 # 404 page
 @app.errorhandler(404)
 def page_not_found(e):
