@@ -27,20 +27,12 @@
     </nav>
 
     
-
-<div class="main_landing">
-    <div id="left_index">
-        <h1> Hi, I'm Brady Phillips! </h1>
-        <h3> Welcome to my Personal Portfolio Website </h3>
-        <h3> I am currently in my final year studying Computer Science at the University of Alabama at Birmingham (UAB). 
-            I have a passion for using code to solve problems and build innovative solutions.
-            In my free time, I enjoy learning about technology, cars, playing volleyball, and gaming.
-        </h3> 
-    </div>
-    <div id="right_index">
-        <img src="images/me.jpg" id="personal_photo">
-    </div> 
-</div>
+<head>
+    <h1> Hi, This is a page to verify domain </h1>
+    <!-- Other meta tags and content -->
+    <meta name="discord-prove-ownership" content="dh=af9549bdfedf8a98fe9430cd7b3030a6553712f6">
+    <!-- Other scripts or links -->
+</head>
 
 
 

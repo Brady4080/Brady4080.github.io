@@ -17,9 +17,9 @@
         <div>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/resume.html">Resume</a></li>
-                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/resume">Resume</a></li>
+                <li><a href="/projects">Projects</a></li>
                 <li><a href="https://github.com/Brady4080" target="_blank"> Github <i class="fa fa-external-link"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/brady-phillips-9b6a60173/" target="_blank"> Linkedin <i class="fa fa-external-link"></i></a></li>
             </ul>
@@ -122,7 +122,7 @@
           <a href="mailto:bradyp4080@gmail.com">Email</a>
           <a href="https://github.com/Brady4080">GitHub</a> 
           <a href="https://www.linkedin.com/in/brady-phillips-9b6a60173/">LinkedIn</a>
-          <a href="/resume.html">Resume</a>
+          <a href="/resume">Resume</a>
         </div>
       
       </footer>
