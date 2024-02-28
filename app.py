@@ -11,15 +11,6 @@ app.config['FREEZER_DESTINATION'] = 'docs'
 freezer = Freezer(app)
 app.config.from_pyfile('config.py')
 
-github_repos = [
-    {'owner': 'your_username', 'name': 'python-text-editor'},
-    {'owner': 'your_username', 'name': 'other-repo'}
-]
-
-github_repo_owner = 'your_username'
-github_repo_name = 'python-text-editor'
-github_token = os.environ.get('GITHUB_TOKEN') or config.github_token
-
 # Home page
 @app.route('/')
 def index():
