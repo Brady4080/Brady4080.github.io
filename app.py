@@ -1,6 +1,6 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, Response
 from flask_frozen import Freezer
-import os, config, requests, base64
+import os, base64
 
 app = Flask(__name__, 
             static_url_path='',
@@ -9,7 +9,6 @@ app = Flask(__name__,
 
 app.config['FREEZER_DESTINATION'] = 'docs'
 freezer = Freezer(app)
-app.config.from_pyfile('config.py')
 
 # Home page
 @app.route('/')
@@ -34,6 +33,11 @@ def projects():
 @app.route('/.well-known/discord')
 def discord_verification():
     return 'dh=af9549bdfedf8a98fe9430cd7b3030a6553712f6'
+
+# Sitemap page
+@app.route('/sitemap.xml')
+def sitemap():
+    return Response(render_template('sitemap.xml'), mimetype='application/xml')
 
 # 404 page
 @app.errorhandler(404)

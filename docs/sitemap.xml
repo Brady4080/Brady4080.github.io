@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+<loc>https://brady4080.github.io/</loc>
+<priority>1.0</priority>
+<changefreq>monthly</changefreq>
+<lastmod>2024-12-05</lastmod>
+</url>
+<url>
+<loc>https://brady4080.github.io/about.html</loc>
+<priority>1.0</priority>
+<changefreq>monthly</changefreq>
+<lastmod>2024-12-05</lastmod>
+</url>
+<url>
+<loc>https://brady4080.github.io/resume.html</loc>
+<priority>1.0</priority>
+<changefreq>monthly</changefreq>
+<lastmod>2024-12-05</lastmod>
+</url>
+<url>
+<loc>https://brady4080.github.io/projects.html</loc>
+<priority>1.0</priority>
+<changefreq>monthly</changefreq>
+<lastmod>2024-12-05</lastmod>
+</url>
+<url>
+<loc>https://brady4080.github.io/js/Resume.pdf</loc>
+<priority>1.0</priority>
+<changefreq>monthly</changefreq>
+<lastmod>2024-12-05</lastmod>
+</url>
+</urlset>
